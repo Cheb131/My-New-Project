@@ -137,11 +137,11 @@ if (number >=20 && number < 100)
             break;
     }
 }
-if (number >100 && number <= 999) 
+if (number > 100 && number <= 999)
 {
     int Hundreds = number / 100;
     int Tens = (number % 100) / 10;
-    int Ones = (number % 100) % 10;   
+    int Ones = (number % 100) % 10;
     switch (Hundreds)
     {
         case 1:
@@ -174,41 +174,6 @@ if (number >100 && number <= 999)
     }
     switch (Tens)
     {
-        case 1:
-            switch (Ones)
-            {
-                case 0:
-                    Console.WriteLine(" and Ten");
-                    break;
-                case 1:
-                    Console.WriteLine(" Eleven");
-                    break;
-                case 2:
-                    Console.WriteLine(" Twelve");
-                    break;
-                case 3:
-                    Console.WriteLine(" Thirteen");
-                    break;
-                case 4:
-                    Console.WriteLine(" Fourteen");
-                    break;
-                case 5:
-                    Console.WriteLine(" Fifteen");
-                    break;
-                case 6:
-                    Console.WriteLine(" Sixteen");
-                    break;
-                case 7:
-                    Console.WriteLine(" Seventeen");
-                    break;
-                case 8:
-                    Console.WriteLine(" Eighteen");
-                    break;
-                case 9:
-                    Console.WriteLine(" Nineteen");
-                    break;
-            }
-            break;
         case 2:
             Console.Write("Twenty");
             break;
