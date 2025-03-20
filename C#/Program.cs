@@ -5,9 +5,9 @@ namespace array
     {
         static void Main(string[] args)
         {
-            Console.Write("Nhap so phan tu cua mang: ");
+            Console.Write("Nhap so phan tu cua list: ");
             int n = int.Parse(Console.ReadLine());
-            int[] arr = new int[n];
+            var number = new list<int>(n);
             Console.Write("Nhap so X can chen: ");
             int x = int.Parse(Console.ReadLine());
             Console.Write("Nhap vao vi tri can chen: ");
