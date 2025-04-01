@@ -37,7 +37,7 @@ public class Point2D
         float[] arr = { x, y };
         return arr;
     }
-    public override string ToString()
+    public virtual string ToString()
     {
         return "(" + x + "," + y + ")";
     }
